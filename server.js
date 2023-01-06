@@ -26,7 +26,7 @@ app.use(morgan("dev"));
 app.use(bodyParser.json({ limit: "2mb" }));
 app.use(
   cors({
-    origin: ["http://localhost:3000", "https://mern-app-i2ki.onrender.com"],
+    origin: ["http://localhost:8000", "https://mern-app-i2ki.onrender.com"],
   })
 );
 
